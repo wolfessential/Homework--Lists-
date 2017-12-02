@@ -78,26 +78,15 @@ def showDeficits(presidents, deficits):
         print()      
         
 #---------------------------function--------------------------------
-#Name: showDeficits(presidents, deficits)
+#Name: addPresident(presidents, deficits)
 #Purpose: Will let you add a new presidents name to add to the presidents list and deficits for that president in billions
         
-def addPresident(presidents, deficits):
-    while True:
+def addPresident(presidents, deficits)
         uName = input("Enter presidents name: ")
-        if uName ==(""):
-            print("Please enter something")
-        else:
-            break
-       elif presidents.append(uName):
-            
-            uDeficit = input("Enter the deficit in billions: ")
-            if uDeficit ==(""):
-            print("Please enter something")
-            else:
-                break
-        elif deficits.append(uDeficit):
-            break
-    print(uName + " was added.\n")
+        uDeficit = input("Enter the deficit in billions: ")
+        deficits.append(uDeficit)
+        presidents.append(uName)
+        print(uName + " was added.\n")
            
     
 
